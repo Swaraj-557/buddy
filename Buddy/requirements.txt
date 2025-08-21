@@ -1,0 +1,23 @@
+# Buddy System Requirements
+# Install with: pip install -r requirements.txt
+
+# Windows-compatible core dependencies
+pywin32>=305  # For Windows Speech API
+requests>=2.25.0  # For network operations
+
+# Linux-specific dependencies (for Ubuntu client computers)
+# vosk>=0.3.42  # For offline speech recognition (Linux only)
+# pyaudio>=0.2.11  # For microphone access (Linux only)
+
+# GUI dependencies (included with Python)
+# tkinter - comes with Python standard library
+
+# System dependencies for Ubuntu clients:
+# sudo apt install wmctrl xdotool gnome-screenshot notify-osd portaudio19-dev
+
+# Development/testing dependencies (optional)
+# pytest>=6.0.0
+# flake8>=3.8.0
+
+# Note: This requirements file is optimized for Windows server.
+# For Linux clients, install vosk and pyaudio separately.
